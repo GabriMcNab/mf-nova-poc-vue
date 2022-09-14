@@ -1,0 +1,66 @@
+// The variables naming needs to be changed when the UI library will be completed
+:root {
+  --color-grey-100: #ccd0dc;
+  --color-grey-90: #edf2f7;
+  --color-grey-80: #f7f9fc;
+  --color-grey-70: #f9f9fb;
+  --color-primary-110: #143aab;
+  --color-primary-100: #1d54f7;
+  --color-primary-50: rgba(29 84 247 / 50%);
+  --color-primary-40: rgba(29 84 247 / 40%);
+  --color-primary-30: rgba(29 84 247 / 30%);
+  --color-primary-20: rgba(29 84 247 / 20%);
+  --color-primary-10: rgba(29 84 247 / 10%);
+  --color-secondary-110: #583fba;
+  --color-secondary-100: #a38cff;
+  --color-secondary-10: rgba(163 140 255 / 10%);
+  --color-error-110: #c9221e;
+  --color-error-90: rgba(232 74 70 / 10%);
+  --color-error-100: #e84a46;
+  --color-error-10: rgba(232 74 70 / 10%);
+  --color-success-110: #339948;
+  --color-success-100: #5fc261;
+  --color-success-10: rgba(111 199 113 / 10%);
+  --color-warning-110: #a95b00;
+  --color-warning-100: #f5ae3b;
+  --color-warning-10: rgba(245 174 59 / 10%);
+  --color-text-100: #030848;
+  --color-text-90: #4c5570;
+  --color-text-80: #7481a8;
+  --color-text-70: #9ba3bb;
+  --color-text-60: #fff;
+  --color-text-10: rgba(116 129 168 / 10%);
+  --color-overlay: rgba(3 8 72 / 10%);
+  --color-white: #fff;
+  --document-sidebar-width-md: 200px;
+  --document-sidebar-width-lg: 224px;
+  --button-background-color: var(--color-primary-100);
+  --button-background-hover: var(--color-primary-110);
+  --border-default-color: var(--color-grey-100);
+  --border-default: 1px solid var(--border-default-color);
+  --border-primary: 1px solid var(--color-primary-100);
+  --border-radius-xs: 4px;
+  --border-radius-sm: 6px;
+  --border-radius-default: 8px;
+  --border-radius-lg: 13px;
+  --box-shadow-popover: 0 2px 10px rgba(3 8 72 / 10%);
+  --box-shadow-row: 0 2px 10px rgba(3 8 72 / 8%);
+  --box-shadow-table: 0 0 6px rgba(3 8 72 / 6%);
+  --box-shadow-light: 0 0 4px rgba(3 8 72 / 10%);
+  --header-height: 52px;
+  --tab-navigation-height: 36px; // tab height + border bottom
+  --window-height: calc(
+    100vh - var(--header-height) - var(--tab-navigation-height)
+  );
+  --font-family: "AvenirTuiMM", "Avenir", "Helvetica Neue", helvetica, arial,
+    sans-serif; // default fallback for TUIMM apps
+    
+  --z-index-dropdown: 10;
+  --z-index-header: 50;
+  --z-index-document-tab-navigation: 50;
+  --z-index-tooltip-content: 70;
+  --z-index-messages-toast: 80;
+  --content-margin-sm: 12px;
+  --content-margin-md: 16px;
+  --content-margin-lg: 32px;
+}

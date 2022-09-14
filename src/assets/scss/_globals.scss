@@ -1,0 +1,43 @@
+@import "./utilities";
+
+body {
+  line-height: rem(18);
+  color: var(--color-text-100);
+
+  @include font-medium(16);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.skeleton_item {
+  background: linear-gradient(
+    90deg,
+    var(--color-grey-90) 40%,
+    var(--color-text-60) 50%,
+    var(--color-grey-90) 60%
+  );
+  background-size: 400% 100%;
+  color: transparent;
+  animation: shine-skeleton 2s infinite ease-in-out;
+  border-radius: rem(6px);
+}
+@keyframes shine-skeleton {
+  0% {
+    background-position: 0;
+  }
+
+  40%,
+  100% {
+    background-position: 100%;
+  }
+}
